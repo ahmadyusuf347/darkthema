@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Navbar Responsive Modern</title>
+  
+</head>
+<body>
+  <nav class="fixed-top" style="display: fixed-top;">
+    <div class="logo">MyLogo</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!--Jumbotron-->
+  <section class="jumbotron">
+    <!-- Shapes -->
+    <div class="shapes">
+      <div class="shape circle" style="width:80px; height:80px; top:20%; left:10%; animation-duration:18s;"></div>
+      <div class="shape" style="width:60px; height:60px; top:40%; left:30%; animation-duration:25s;"></div>
+      <div class="shape circle" style="width:100px; height:100px; top:60%; left:70%; animation-duration:22s;"></div>
+      <div class="shape" style="width:50px; height:50px; top:80%; left:50%; animation-duration:20s;"></div>
+      <div class="shape circle" style="width:120px; height:120px; top:10%; left:80%; animation-duration:30s;"></div>
+      <div class="shape" style="width:70px; height:70px; top:50%; left:15%; animation-duration:28s;"></div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Membawa ide menjadi karya visual yang berkesan.</p>
+      <button class="btn">Lihat Karya</button>
+    </div>
+  </section>
+
+  <!--About-->
+<section id="about" style="padding: 100px 50px; background:#111; color:#fff;">
+  <div class="about-container" style="display:flex; flex-wrap:wrap; align-items:center; gap:40px; max-width:1100px; margin:auto;">
+    
+    <!-- Gambar About -->
+    <div class="about-img" style="flex:1; min-width:300px; text-align:center;">
+      <img src="https://picsum.photos/400/400" alt="About Me" style="width:100%; max-width:350px; border-radius:20px; box-shadow:0 0 30px rgba(255,255,255,0.1);">
+    </div>
+    
+    <!-- Teks About -->
+    <div class="about-text" style="flex:1; min-width:300px;">
+      <h2 style="font-size:2.5rem; margin-bottom:20px; background:linear-gradient(90deg,#ff00cc,#3333ff); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
+        About Me
+      </h2>
+      <p style="font-size:1.1rem; color:#ccc; line-height:1.8; margin-bottom:20px;">
+        Halo! Saya seorang desainer & frontend developer yang berfokus pada pembuatan desain logo, identitas visual, dan website modern. 
+        Dengan pengalaman dalam branding dan UI/UX, saya berusaha menciptakan karya yang tidak hanya indah tetapi juga fungsional.
+      </p>
+      <p style="font-size:1.1rem; color:#ccc; line-height:1.8; margin-bottom:30px;">
+        Saya percaya bahwa desain yang baik dapat memberikan dampak besar bagi sebuah brand. 
+        Mari berkolaborasi dan mewujudkan ide Anda menjadi karya nyata!
+      </p>
+      <a href="#contact" style="padding:14px 32px; background:linear-gradient(90deg,#ff00cc,#3333ff); border-radius:30px; color:#fff; text-decoration:none; font-weight:600; transition:.3s;">
+        Hubungi Saya
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!--Service-->
+<section id="services" style="padding:100px 50px; background:#181818; color:#fff;">
+  <div style="max-width:1100px; margin:auto; text-align:center;">
+    <h2 style="font-size:2.5rem; margin-bottom:15px; background:linear-gradient(90deg,#ff00cc,#3333ff); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
+      My Services
+    </h2>
+    <p style="font-size:1.1rem; color:#ccc; margin-bottom:60px;">
+      Berikut adalah layanan yang saya tawarkan untuk membantu brand dan bisnis Anda.
+    </p>
+
+    <!-- Grid Services -->
+    <div class="services-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:30px;">
+      
+      <!-- Card 1 -->
+      <div class="service-card" style="background:#222; padding:40px 30px; border-radius:20px; transition:.3s; box-shadow:0 0 20px rgba(0,0,0,0.4);">
+        <div style="font-size:40px; margin-bottom:20px;">🎨</div>
+        <h3 style="margin-bottom:15px;">Logo Design</h3>
+        <p style="color:#bbb; line-height:1.6;">
+          Membuat desain logo unik dan profesional untuk identitas brand Anda.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card" style="background:#222; padding:40px 30px; border-radius:20px; transition:.3s; box-shadow:0 0 20px rgba(0,0,0,0.4);">
+        <div style="font-size:40px; margin-bottom:20px;">💻</div>
+        <h3 style="margin-bottom:15px;">Web Design</h3>
+        <p style="color:#bbb; line-height:1.6;">
+          Merancang website modern yang responsif dengan fokus pada user experience.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card" style="background:#222; padding:40px 30px; border-radius:20px; transition:.3s; box-shadow:0 0 20px rgba(0,0,0,0.4);">
+        <div style="font-size:40px; margin-bottom:20px;">📱</div>
+        <h3 style="margin-bottom:15px;">UI/UX Design</h3>
+        <p style="color:#bbb; line-height:1.6;">
+          Membuat desain aplikasi mobile & web dengan antarmuka yang menarik dan mudah digunakan.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card" style="background:#222; padding:40px 30px; border-radius:20px; transition:.3s; box-shadow:0 0 20px rgba(0,0,0,0.4);">
+        <div style="font-size:40px; margin-bottom:20px;">📈</div>
+        <h3 style="margin-bottom:15px;">Branding</h3>
+        <p style="color:#bbb; line-height:1.6;">
+          Membantu membangun identitas visual dan strategi branding yang kuat untuk bisnis Anda.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Portofolio-->
+<section id="portfolio" style="padding:100px 50px; background:#111; color:#fff;">
+  <div style="max-width:1100px; margin:auto; text-align:center;">
+    <h2 style="font-size:2.5rem; margin-bottom:15px; background:linear-gradient(90deg,#ff00cc,#3333ff); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
+      My Portfolio
+    </h2>
+    <p style="font-size:1.1rem; color:#ccc; margin-bottom:60px;">
+      Beberapa hasil karya desain & proyek yang pernah saya kerjakan.
+    </p>
+
+    <!-- Grid Portfolio -->
+    <div class="portfolio-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px;">
+      
+      <!-- Item 1 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=1" alt="Project 1">
+        <div class="overlay">
+          <h3>Logo Design</h3>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=2" alt="Project 2">
+        <div class="overlay">
+          <h3>Web Design</h3>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=3" alt="Project 3">
+        <div class="overlay">
+          <h3>Brand Identity</h3>
+        </div>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=4" alt="Project 4">
+        <div class="overlay">
+          <h3>UI/UX Design</h3>
+        </div>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=5" alt="Project 5">
+        <div class="overlay">
+          <h3>App Design</h3>
+        </div>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/500/350?random=6" alt="Project 6">
+        <div class="overlay">
+          <h3>Marketing Design</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer style="background:#0d0d0d; color:#ccc; padding:60px 30px 20px; font-size:0.95rem;">
+  <div style="max-width:1200px; margin:auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:40px;">
+
+    <!-- Brand / Logo -->
+    <div>
+      <h2 style="font-size:1.8rem; margin-bottom:15px; background:linear-gradient(90deg,#ff00cc,#3333ff); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">
+        MyPortfolio
+      </h2>
+      <p style="line-height:1.6;">
+        Seorang desainer logo & frontend developer yang berfokus pada karya kreatif, modern, dan fungsional.  
+        Mari bangun brand Anda bersama!
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 style="color:#fff; margin-bottom:15px; font-size:1.2rem;">Quick Links</h3>
+      <ul style="list-style:none; padding:0; margin:0;">
+        <li style="margin:8px 0;"><a href="#about" style="color:#ccc; text-decoration:none; transition:.3s;">About</a></li>
+        <li style="margin:8px 0;"><a href="#services" style="color:#ccc; text-decoration:none; transition:.3s;">Services</a></li>
+        <li style="margin:8px 0;"><a href="#portfolio" style="color:#ccc; text-decoration:none; transition:.3s;">Portfolio</a></li>
+        <li style="margin:8px 0;"><a href="#contact" style="color:#ccc; text-decoration:none; transition:.3s;">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div>
+      <h3 style="color:#fff; margin-bottom:15px; font-size:1.2rem;">Contact</h3>
+      <p>Email: <a href="mailto:hello@email.com" style="color:#ccc; text-decoration:none;">hello@email.com</a></p>
+      <p>Phone: +62 812 3456 7890</p>
+      <p>Location: Jakarta, Indonesia</p>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h3 style="color:#fff; margin-bottom:15px; font-size:1.2rem;">Follow Me</h3>
+      <div style="display:flex; gap:15px; margin-top:10px;">
+        <a href="#" style="color:#ccc; font-size:1.4rem; transition:.3s;">🌐</a>
+        <a href="#" style="color:#ccc; font-size:1.4rem; transition:.3s;">🐦</a>
+        <a href="#" style="color:#ccc; font-size:1.4rem; transition:.3s;">📸</a>
+        <a href="#" style="color:#ccc; font-size:1.4rem; transition:.3s;">💼</a>
+      </div>
+    </div>
+
+  </div>
+
+  <hr style="margin:40px 0; border:0; border-top:1px solid #333;">
+
+  <p style="text-align:center; color:#777;">© 2025 MyPortfolio. All Rights Reserved.</p>
+</footer>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      navLinks.classList.toggle("open");
+    });
+  </script>
+</body>
+</html>
